@@ -1,0 +1,17 @@
+.homeTitle {
+  font-size: 36px;
+  text-align: center;
+}
+.introduction {
+  padding-top: 5px;
+  /* white-space: pre-wrap; */
+}
+.introduction a {
+  color: blue;
+}
+.introduction h2 {
+  border-left: solid 8px rgba(100, 149, 237, 0.9);
+  margin: 4px 0;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}

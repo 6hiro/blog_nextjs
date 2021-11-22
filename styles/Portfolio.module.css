@@ -1,0 +1,11 @@
+.portfolio .portfolioTitle {
+  color: #333;
+  font-size: 33px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  padding-left: 6px;
+  text-align: center;
+}
+.portfolio .contents {
+  text-align: center;
+}

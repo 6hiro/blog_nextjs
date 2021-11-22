@@ -1,0 +1,89 @@
+.root {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.root .toBlogList {
+  margin-right: 5px;
+  font-weight: 700;
+}
+.toCategory {
+  color: #333;
+  margin-right: 5px;
+  font-weight: 700;
+}
+.root .corrent_page {
+  color: #666;
+  font-weight: 700;
+}
+.date {
+  text-align: right;
+  margin-top: 15px;
+  padding: 4px 0;
+}
+.date span {
+  font-size: 16px;
+  padding: 0 8px;
+}
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0 10px;
+}
+.tags {
+  margin: 5px 0px 30px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tags .tag {
+  margin: 2px;
+  padding: 6px;
+  /* color: #fff; */
+  border-radius: 6px;
+}
+.tags .skyBlue {
+  color: #1f93eb;
+}
+.tags .blue {
+  color: #4246c2;
+}
+.tags .green {
+  color: #05c46b;
+}
+.tags .yellow {
+  color: #ffa801;
+}
+.tags .red {
+  color: #e10098;
+}
+
+/* markdown用 */
+.markdownPost h2 {
+  border-left: solid 8px #1f93eb;
+  margin: 4px 0;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.markdownPost h3 {
+  border-left: solid 7px #333;
+  margin: 4px 0;
+  padding: 8px 5px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.markdownPost pre {
+  overflow-x: scroll;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background: #333 !important;
+  border: 0.3em double #000 !important;
+}
+.markdownPost a {
+  color: blue;
+}
+/* .markdownPost img {
+  width: 180px;
+  height: 180px;
+} */

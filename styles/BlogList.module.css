@@ -1,0 +1,70 @@
+.root {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 0 10px;
+}
+.post {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+}
+.post .header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 5px;
+}
+.post .header .category {
+  padding: 5px 0;
+  color: #666;
+
+  font-weight: 700;
+}
+.post .header .date {
+  padding: 4px 0;
+}
+.post .header .date span {
+  padding: 0 4px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+}
+.tags {
+  margin: 5px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tags .tag {
+  margin: 2px;
+  padding: 3px;
+  border-radius: 6px;
+}
+.tags .skyBlue {
+  color: #1f93eb;
+}
+.tags .blue {
+  color: #4246c2;
+}
+.tags .green {
+  color: #05c46b;
+}
+.tags .yellow {
+  color: #ffa801;
+}
+.tags .red {
+  color: #e10098;
+}
+.previewContent {
+  display: block;
+  font-size: 14px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
