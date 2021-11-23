@@ -30,10 +30,10 @@ header .nav .logo {
   cursor: pointer;
 }
 .header .nav .icons {
-  display: flex;
+  /* display: flex; */
   /* justify-content: space-between; */
-  justify-content: right;
-  width: 70px;
+  /* justify-content: right; */
+  /* width: 70px; */
 }
 .header .nav .icons .icon {
   padding: 0 0 0 10px;

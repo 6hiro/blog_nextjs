@@ -30,7 +30,7 @@
   padding: 0 10px;
 }
 .tags {
-  margin: 5px 0px 30px 0;
+  margin: 5px 0px 10px 0;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@
 /* markdown用 */
 .markdownPost h2 {
   border-left: solid 8px #1f93eb;
-  margin: 4px 0;
+  margin: 15px 0;
   padding: 8px;
   background: rgba(0, 0, 0, 0.05);
 }
@@ -82,6 +82,10 @@
 }
 .markdownPost a {
   color: blue;
+}
+.markdownPost p {
+  padding-left: 5px;
+  text-indent: 0.5em;
 }
 /* .markdownPost img {
   width: 180px;
