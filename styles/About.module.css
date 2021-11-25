@@ -1,4 +1,5 @@
 .homeTitle {
+  margin-bottom: 4px;
   font-size: 36px;
   text-align: center;
 }
@@ -11,7 +12,10 @@
 }
 .introduction h2 {
   border-left: solid 8px rgba(100, 149, 237, 0.9);
-  margin: 4px 0;
+  margin: 12px 0;
   padding: 8px;
   background: rgba(0, 0, 0, 0.05);
+}
+.introduction p {
+  text-indent: 0.5em;
 }
